@@ -5,7 +5,7 @@ Simply put: "Where somebody admits to mistakes or bad practice in code they've d
 
 ## What's the problem?
 
-Everybody who develops software has at some point written some software badly, quickly, cut corners or simply made a mistake that made it function incorrectly. Due to impostor syndrome many people feel like this makes them less worthy developers. 
+Everybody who develops software has at some point written some software badly, quickly, cut corners or simply made a mistake that made it function incorrectly. Due to [impostor syndrome](https://dev.to/kevinhickssw/even-senior-developers-have-imposter-syndrome-4e8f) many people feel like this makes them less worthy developers. 
 
 Often the root cause is time pressure to make something that "just works" (or at least appeared to). These little short cuts often end up becoming core pieces of software upon which research conclusions and publications are based. People don't like to admit to making mistakes, cutting corners or not following best practice, sometimes hiding these problems away. 
 
