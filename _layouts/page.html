@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<!-- Hero -->
+<section id="slider" class="hero p-0 odd featured">
+  <div class="swiper-container no-slider slider-h-100">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide-center">
+        <img src="{{ "/assets/images/bg-runner-road-mountains.jpg" | relative_url }}" class="full-image" data-mask="60">
+        <div class="slide-content row text-center">
+          <div class="col-12 mx-auto inner">
+            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">{{ page.title }}</h1>
+            <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{% link index.markdown %}">Home</a></li>
+                <li class="breadcrumb-item">{{ page.category }}</li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Content -->
+<section id="content" class="section-1 single featured">
+  <div class="container">
+    <div class="row">
+      <!-- Main -->
+      <main class="col-12 p-0">
+        <div class="row">
+          <div class="col-12 align-self-center">
+            <h2 class="featured mt-0 ml-0">{{ page.title }}</h2>
+            {{ content }}
+          </div>
+        </div>        
+      </main>
+    </div>
+  </div>
+</section>   
