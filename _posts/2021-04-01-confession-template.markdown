@@ -4,6 +4,7 @@ title:  "The typo that nearly broke my first paper"
 date:   2021-02-09 09:59:55 +0000
 category: Blog
 author: Eirini
+uid: 2
 ---
 
 ### What's the background?

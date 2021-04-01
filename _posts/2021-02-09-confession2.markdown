@@ -4,6 +4,7 @@ title:  "Confession 2"
 date:   2021-02-09 09:59:55 +0000
 category: Blog
 author: Dave
+uid: 1
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis vestibulum lacus, eget interdum ligula. Nam pretium sapien et erat rhoncus euismod. Nulla gravida scelerisque nisl quis varius. Curabitur quis neque tincidunt, vestibulum ante nec, ornare dolor. Nunc et lectus luctus, consequat felis ac, commodo metus. Aliquam sagittis fringilla elementum. Integer et ligula ante. Maecenas placerat tempus mi, in malesuada ipsum. Phasellus lacus justo, condimentum eget tellus ut, viverra congue nisi. Donec cursus hendrerit neque, eu cursus enim laoreet eget. Phasellus porta eu erat sed aliquet. Proin tellus magna, imperdiet eu ante in, sollicitudin mollis mi. Aliquam fringilla commodo ipsum, non consectetur libero. Nullam tempus ex vel mauris ultrices pulvinar. Etiam vehicula lobortis ex et ultrices. Morbi fermentum ante eu ante elementum, in efficitur nisl sollicitudin.
 
