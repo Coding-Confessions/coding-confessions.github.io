@@ -1,5 +1,8 @@
-## Running a Coding Confessions event
-
+---
+layout: page
+title: Running a Coding Confessions event
+category: About
+---
 As well as submitting your confession to us, you can run your own coding confessions event at your organisation or as part of a conference. We have three possible styles for this: public talks, "confession booths" and noticeboards. 
 
 Its really helpful if the outputs of these are fed back to our blog for everybody to benefit from. This could either be in the form of a post for each confession or a summary post covering any commonly occuring themes. Either way please submit an issue to our github repository and label it "event confession". 
