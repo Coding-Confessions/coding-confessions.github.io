@@ -1,6 +1,6 @@
 # Code of Conduct
 
-Coding Confessions sessions should be safe( r ) spaces to encourage people to be honest about their failures. Our confession guidelines provide some ground rules to ensure that confessions are honest, helpful, and blameless. Should you run a Coding Confessions session, we highly recommend having a Code of Conduct for your event.
+Coding Confessions sessions should be safe spaces to encourage people to be honest about their failures. Our confession guidelines provide some ground rules to ensure that confessions are honest, helpful, and blameless. Should you run a Coding Confessions session yourself, we highly recommend having a Code of Conduct for your event.
 
 A Code of Conduct is a set of rules that guides behaviour. There might already be an existing Code of Conduct that applies to your event set out by the hosting institution or community. 
 
