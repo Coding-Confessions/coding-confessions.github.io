@@ -195,19 +195,6 @@ jQuery(function ($) {
     })
 
     $(document).on('click', '.smooth-anchor', function (e) {
-        e.preventDefault();
-
-        let href   = $(this).attr('href');
-        let target = $.attr(this, 'href');
-
-        if($(target).length > 0) {
-        
-            if (href.length > 1 && href.indexOf('#') != -1) {
-                $('html, body').animate({
-                    scrollTop: $(target).offset().top
-                }, 500);
-            }
-        }
     })
 
     $('.dropdown-menu').each(function () {
