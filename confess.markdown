@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Submit your Confession
-category: Legal
+category: About
 ---
 Please fill out this [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfgEqTQzON7TQZ2qe9pNbB_bU0NlXALatTr-GNQvJvAWb7LsQ/viewform?usp=sf_link) with details of your confession. Do not include any identifying information such as your name, employer/organisation, links to publications or code repositories. 
 
