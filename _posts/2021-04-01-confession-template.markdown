@@ -6,11 +6,11 @@ category: Blog
 author: Eirini
 ---
 
-## What's the background?
+### What's the background?
 
 This happened in the second year of my PhD, when I submitted my first ever paper for publication. My background is in experimental psychology and most of my coding was about cleaning data and running inferential statistics in R.
 
-## What happened?
+### What happened?
 
 I got back the reviews for this very fist paper and saw that one comment was about something weird in my stats. A strict method of assessing statistical significance was finding a lower *p* value than a more lenient method of assessing statistical significance.
 
@@ -18,7 +18,7 @@ What happened? A typo. But not one of the typos that throws an error. No this wa
 
 This realisation easily led to the more terrifying Sunday afternoon of my PhD, when I reran all my analyses not knowing if I was reporting a real effect in my first submitted paper. In my panic, I didn't even stop to think that this only affected the effects I reported about interactions - effects I didn't actually care about.
 
-## What did I learn?
+### What did I learn?
 
 1. Peer review actually works!
 2. Don't work on Sundays.
