@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: News and Updates
+title: Confessions
 category: Blog
 ---
