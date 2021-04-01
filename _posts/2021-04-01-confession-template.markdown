@@ -1,5 +1,11 @@
+---
+layout: page
+title:  "Confession Template"
+date:   2021-02-09 09:59:55 +0000
+category: Blog
+author: Eirini
+---
 # Title
-
 
 ## What's the background?
 :::info
