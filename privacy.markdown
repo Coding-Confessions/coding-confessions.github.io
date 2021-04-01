@@ -19,6 +19,6 @@ Your continued use of our website will be regarded as acceptance of our practice
 
 This policy is effective as of 1 April 2021.
 
-# About us
+### About us
 
 We are Colin Sauze, Dave Horsfall, Eirini Zormpa, and Patricia Herterich that created this page as part of a project at the Collaborations Workshop hackday on 1 April 2021. We don't track information on this page and keep submissions anonymous unless submitters are happy to have their name attached to a confession.
