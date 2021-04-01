@@ -8,7 +8,7 @@ author: Eirini
 
 ## What's the background?
 
-This happened in the second year of my PhD, when I submitted my first ever paper for publication. My background is in experimental psychology and most of my coding was about cleaning data and running inferential statistics in R. (add more information)
+This happened in the second year of my PhD, when I submitted my first ever paper for publication. My background is in experimental psychology and most of my coding was about cleaning data and running inferential statistics in R.
 
 ## What happened?
 
