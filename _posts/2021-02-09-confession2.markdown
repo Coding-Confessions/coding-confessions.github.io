@@ -1,17 +1,18 @@
 ---
 layout: page
-title:  "Confession 2"
-date:   2021-02-09 09:59:55 +0000
+title:  "Database for financial transactions"
+date:   2021-10-18 09:59:55 +0000
 category: Blog
-author: Dave
+author: SeptembRSE submission
 uid: 1
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis vestibulum lacus, eget interdum ligula. Nam pretium sapien et erat rhoncus euismod. Nulla gravida scelerisque nisl quis varius. Curabitur quis neque tincidunt, vestibulum ante nec, ornare dolor. Nunc et lectus luctus, consequat felis ac, commodo metus. Aliquam sagittis fringilla elementum. Integer et ligula ante. Maecenas placerat tempus mi, in malesuada ipsum. Phasellus lacus justo, condimentum eget tellus ut, viverra congue nisi. Donec cursus hendrerit neque, eu cursus enim laoreet eget. Phasellus porta eu erat sed aliquet. Proin tellus magna, imperdiet eu ante in, sollicitudin mollis mi. Aliquam fringilla commodo ipsum, non consectetur libero. Nullam tempus ex vel mauris ultrices pulvinar. Etiam vehicula lobortis ex et ultrices. Morbi fermentum ante eu ante elementum, in efficitur nisl sollicitudin.
+**What happened?**
 
-Proin tristique, tellus nec viverra feugiat, velit velit malesuada sapien, eget commodo libero augue non est. Sed nisl dolor, tempus eget rhoncus nec, lobortis id turpis. Duis varius elementum arcu sed euismod. Aenean non ante at metus ornare varius ut a orci. Proin gravida ornare diam ut pellentesque. Mauris commodo vitae neque eget tincidunt. Maecenas tincidunt convallis tortor nec bibendum. Nunc id metus ornare, tincidunt nibh id, faucibus lectus. Donec malesuada nisi at nunc dapibus, vitae consequat felis eleifend. Donec at lorem ultricies nibh blandit rutrum volutpat ac augue. Cras vitae eros a leo tincidunt dictum. Nulla id nibh erat. Donec euismod leo finibus dui molestie, ac pharetra sem ultricies. Morbi in mauris quis metus cursus lobortis vitae sit amet nisl. Cras odio arcu, consectetur quis metus eget, accumsan aliquet nulla. Suspendisse eget pretium lectus.
+An early task at a new job was to move a subset of rows from one database table to a new table, deleting the original rows. This involved writing a migration script, running it on a test database, then getting it signed off to be run in production. On the test database, this went perfectly, so it was signed off. On production however, it went... less than perfectly - the entire system stopped processing transactions. What had happened was that the condition used to select rows did not use an index, and so the table was locked while the delete was carried out. The production table was orders of magnitude larger than the test database, so this meant it needed to be locked for a very long time. Thankfully, the problem was caught before too long (although long enough to cause problems) and the operation cancelled. Later we found a safer (although more complex) approach to solve the problem.
 
-Integer in mauris ut elit commodo tristique vitae in nisi. Nam eget libero id magna hendrerit interdum. Quisque sodales eros in quam tristique, sit amet semper elit pellentesque. Cras a pharetra mauris. Aenean eu nisl at neque maximus dignissim nec quis tortor. Phasellus vel massa at elit facilisis tempor. Suspendisse varius ante neque, eget pretium dolor fermentum at. Fusce et magna a orci ultrices ultrices. Integer ut suscipit ex. Donec tincidunt malesuada ante eu condimentum. Nullam molestie, leo vitae iaculis vestibulum, sapien ante laoreet leo, ac tincidunt nisl nibh id elit. Donec suscipit in tortor ac pharetra.
+**How can others prevent repeating it?**
 
-Sed faucibus quam ut purus lacinia, ut pellentesque justo sodales. Mauris turpis leo, lobortis at ex nec, cursus venenatis mauris. Donec lacinia urna libero, sed efficitur massa lacinia non. Morbi lacinia vulputate leo non sollicitudin. Sed sit amet odio vitae leo eleifend pellentesque vel ac lorem. Sed eget tortor efficitur, faucibus ligula vel, tincidunt ligula. Sed ac vulputate risus. Donec turpis nisi, congue at hendrerit id, pulvinar at leo. Sed faucibus, dui id sodales pulvinar, dolor ipsum elementum erat, venenatis fermentum erat massa feugiat elit.
+Testing is always important, but it's just as important to know (and record) the differences between your test environment/assumptions and your production environment.
 
-Phasellus leo nulla, faucibus quis sapien sed, elementum tincidunt mi. Morbi rutrum neque sed sodales euismod. Nam tempus justo eu elit lacinia fermentum. Ut efficitur vehicula ultrices. Praesent sed fringilla neque. Etiam luctus, urna a fermentum pulvinar, enim augue vehicula ipsum, vel vulputate sem quam nec nunc. Integer elementum interdum mauris sit amet ullamcorper. Aenean tincidunt quis justo sit amet ullamcorper. Suspendisse nec elit nisl. Nullam massa orci, tristique ut tellus volutpat, pharetra dignissim justo. Cras id lacinia orci, vel finibus velit.
+However, the most important thing I learned from the incident was not specifically coding-related - the thing I learned was that it was okay to make mistakes. I might have written the code, but not one person blamed me - other people also signed the change off, and there were other places in the process where changes could have prevented the issue.
+
