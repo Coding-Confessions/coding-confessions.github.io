@@ -1,3 +1,12 @@
+---
+layout: page
+title:  "How it took five years to realise I wasn't closing my database connections."
+date:   2021-09-17 11:00:00 +0000
+category: Blog
+author: Jannetta Steyn
+uid: 1
+---
+
 My name is Jannetta Steyn and I am a Senior Research Software Engineer at Newcastle University. I worked in industry for many years before returning to university to do a PhD. After the PhD I worked as a Bioinformatician and then a couple of years as a Senior Research Associate before joining the Newcastle University's Research Software Engineering Team in 2019.
 
 My code confession is about something that happened to me many, many years ago - pre-Internet days actually. But, I think this is my favourite boo-boo because although it happened so long ago I still remember the panic and what I learnt is still very applicable to today.
