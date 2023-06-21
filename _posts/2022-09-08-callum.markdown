@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Your title"
+title:  "How I lost 90% of my project's data"
 date:   2022-09-08 00:00:00 +0000
-category: Callum Mole
-author: Your name
+category: Blog
+author: Callum Mole
 uid: 2
 ---
 
