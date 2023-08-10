@@ -1,12 +1,14 @@
 ---
-layout: page
-title:  "Turn off your debug output when deploying to production"
-date:   2022-09-08 00:00:00 +0000
+layout: confession
+title: "Turn off your debug output when deploying to production"
+permalink: /confessions/:title/
+date: 2022-09-08
 category: Blog
 author: Anika Cawthorn
-uid: 2
+about: 
+link: 
+uid: anika
 ---
-
 ### What's the background?
 
 I was developing web applications in the era before cloud servers. I would develop code and hand it over to another team
