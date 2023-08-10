@@ -4693,3 +4693,13 @@ blockquote.quotation:before {
 .showcase .card .image-over:before {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+code {
+    display: inline;
+    background-color: #272822;
+    color: #f8f8f2;
+    border-radius: 0.3rem;
+    padding: 3px 5px 5px;
+    margin: 0 2px;
+    white-space: nowrap;
+}

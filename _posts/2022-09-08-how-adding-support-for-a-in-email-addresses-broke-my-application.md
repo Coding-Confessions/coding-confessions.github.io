@@ -9,7 +9,6 @@ about: Software developer at the UK Dementia Research Institute at Imperial Coll
 link: https://markwoodbridge.com/
 uid: mark
 ---
-
 ### What's the background?
 
 I’m a long-time research software engineer, mainly working on backend services and infrastructure. This story is about an instance where I was maintaining a web application that included functionality to search for users by email address. It was reported that this feature wasn't working for addresses containing a "+" symbol (e.g. `a+b@gmail.com`). I was no Angular expert (and not a full-time frontend developer) but already had a hypothesis about the issue so decided to take a look.
