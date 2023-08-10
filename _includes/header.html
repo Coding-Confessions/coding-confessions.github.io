@@ -4,18 +4,21 @@
     <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
         <div class="container header">
             <!-- Navbar Brand-->
-            <a class="navbar-brand" href="{{ site.baseurl }}{% link index.markdown %}">
+            <a class="navbar-brand" href="{% link index.md %}">
                 CodingConfessions
             </a>
-            <!-- Nav holder -->
+            <!-- Nav Holder -->
             <div class="ml-auto"></div>
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
                 <li class="nav-item">
-                    <a href="{{ site.baseurl }}{% link index.markdown %}#about" class="nav-link">About</a>
+                    <a href="{% link about.md %}" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ site.baseurl }}{% link index.markdown %}#confessions" class="nav-link">Read Confessions</a>
+                    <a href="{% link confessions.md %}" class="nav-link">Confessions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% link events.md %}" class="nav-link">Events</a>
                 </li>
             </ul>
             <!-- Navbar Toggle -->
@@ -29,11 +32,11 @@
             <!-- Navbar Action -->
             <ul class="navbar-nav action">
                 <li class="nav-item ml-3">
-                    <a href="{{ site.baseurl }}{% link confess.markdown %}" class="btn ml-lg-auto primary-button">MAKE A CONFESSION</a>
+                    <a href="{{ site.baseurl }}{% link confess.md %}" class="btn ml-lg-auto primary-button"><i
+                            class="icon-bubble"></i>MAKE A
+                        CONFESSION</a>
                 </li>
             </ul>
         </div>
     </nav>
 </header>
-
-

@@ -4667,6 +4667,29 @@ footer .copyright a:not(.btn) {
     height: 100%;
 }
 
-blockquote.strap {
-    font-size: 300%;
+blockquote.quotation {
+    font-size: 200%;
+    border-left: 10px solid #ccc;
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote.quotation:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+.swiper-container {
+    min-height: 370px;
+}
+
+.slide-content .title {
+    line-height: 1;
+}
+
+.showcase .card .image-over:before {
+    background-color: rgba(0, 0, 0, 0.7);
 }
