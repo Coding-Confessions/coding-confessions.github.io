@@ -5,8 +5,8 @@ permalink: /confessions/:title/
 date: 2022-09-08
 category: Blog
 author: Callum Mole
-about: 
-link: 
+about: Research Data Scientist at The Alan Turing Institute
+link: https://www.turing.ac.uk/people/research-engineering/callum-mole
 uid: callum
 ---
 ### What's the background?

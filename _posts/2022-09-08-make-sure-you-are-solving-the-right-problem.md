@@ -1,12 +1,12 @@
 ---
 layout: confession
-title: "Title"
+title: "Make sure you are solving the right problem"
 permalink: /confessions/:title/
 date: 2022-09-08
 category: Blog
 author: Sadie Bartholomew
-about: 
-link: 
+about: Computational scientist working for the National Centre for Atmospheric Science
+link: https://sadielbartholomew.github.io/
 uid: sadie
 ---
 ### What's the background?

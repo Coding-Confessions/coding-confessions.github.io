@@ -4,9 +4,9 @@ title: "Turn off your debug output when deploying to production"
 permalink: /confessions/:title/
 date: 2022-09-08
 category: Blog
-author: Anika Cawthorn
-about: 
-link: 
+author: Anika Cawthorn 
+about: Senior Research Software Developer at University College London
+link: https://www.ucl.ac.uk/advanced-research-computing/people/anika-cawthorn
 uid: anika
 ---
 ### What's the background?
