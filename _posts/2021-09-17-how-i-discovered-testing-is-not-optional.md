@@ -17,7 +17,7 @@ And then things go south. So, this doesn’t work. The code starts segfaulting a
 
 The way I recovered from this was to, firstly, write regression tests for each function to figure out where things were going wrong. Then I tidied and refactored the code a little bit so that I could actually understand what each section was doing while I was working on it rather than blindly adding directives to it. I needed to make sure that I didn’t lose the readability for the researcher who is a Fortran developer and doesn’t want to be dealing with things that aren’t Fortran. Then I switched to using MPI to parallelise function by function, because I’m a lot more familiar with MPI. The researcher was also saying that perhaps the code would need to scale beyond one node at some point, so being more flexible in that direction was a good idea. Finally, in some sense the way this application was structured lent itself quite nicely to MPI parallelism. So in the end, because I’m leading the team as well as doing this development, I ran out of time to work on it so I had to hand it over to another team member to finalise. Dr Michele Mesiti gave a talk at the RSE conference in 2019 about the final version of this.
 
-## So what did I learn?
+### So what did I learn?
  * Don’t believe the hype around technologies.
  * Testing is not optional: you can’t cut back on testing, you can’t just jump in and do stuff because you’re going to waste all of your time, you’re going to have to abandon it and go back and write tests anyway.
  * As a more management-related one: it’s hard to lead a team and also keep to a timeline while you’re doing software development. You have to bear that in mind when you’re deciding who’s going to do what work.

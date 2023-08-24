@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Privacy and Licenses
-category: Legal
+title: Privacy Policy
+category: Privacy, Licenses and Credits
 ---
 Your privacy is important to this project. It is our policy to respect your privacy regarding any information we may collect from you across our website, https://coding-confessions.github.io.
 
@@ -19,11 +19,12 @@ Your continued use of our website will be regarded as acceptance of our practice
 
 This policy is effective as of 1 April 2021.
 
-### About us
+### About the project
 
 The Coding Confessions project evolved as part of a hack day event at the [Collaborations Workshop 2021](https://www.software.ac.uk/cw21). The team that created the project and this page are Colin Sauze, Dave Horsfall, Eirini Zormpa, and Patricia Herterich. We don't track information on this page and Confession submissions are anonymous unless submitters are happy to have their name attached to a confession.
 
 ### Website content license
+
 Unless specified otherwise, the content of this website is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 ***You are free to***
@@ -35,3 +36,7 @@ Unless specified otherwise, the content of this website is licensed under a [Cre
 * No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+### Credits and acknowledgements
+
+Stock images on this website are taken from [unsplash.com](https://unsplash.com/license). This website is build using [Jekyll](https://jekyllrb.com/), and deployed for free using [Github Pages](https://pages.github.com/). We would like to thank the [Software Sustainability Institute](https://www.software.ac.uk/) for their ongoing support.
