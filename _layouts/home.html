@@ -1,23 +1,48 @@
 ---
 layout: default
 ---
+
 <!-- Hero -->
 <section id="slider" class="hero p-0 featured">
   <div class="swiper-container no-slider animation slider-h-100">
     <div class="swiper-wrapper">
       <div class="swiper-slide slide-center">
-        <img src="{{ '/assets/images/bg-abstract.jpg' | relative_url }}" class="full-image" data-mask="60"
-          alt="background">
+        <img
+          src="{{ '/assets/images/bg-abstract.jpg' | relative_url }}"
+          class="full-image"
+          data-mask="60"
+          alt="background"
+        />
         <div class="slide-content row">
           <div class="col-12 d-flex inner">
             <div class="center align-self-center text-center">
-              <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Normalising failure</h1>
-              <p data-aos="zoom-out-up" data-aos-delay="800" class="description ml-auto mr-auto">Normalising failure in
-                research software creates an inclusive space for sharing experiences, and generates opportunity to
-                learn</p>
-              <a href="#about" data-aos="zoom-out-up" data-aos-delay="1200"
-                class="smooth-anchor ml-auto mr-auto mt-5"><img width="400" src="/assets/images/logo-2023.png"
-                  alt="Logo" /></a>
+              <h1
+                data-aos="zoom-out-up"
+                data-aos-delay="400"
+                class="title effect-static-text"
+              >
+                Normalising failure
+              </h1>
+              <p
+                data-aos="zoom-out-up"
+                data-aos-delay="800"
+                class="description ml-auto mr-auto"
+              >
+                Normalising failure in research software creates an inclusive
+                space for sharing experiences, and generates opportunity to
+                learn
+              </p>
+              <a
+                href="#about"
+                data-aos="zoom-out-up"
+                data-aos-delay="1200"
+                class="smooth-anchor ml-auto mr-auto mt-5"
+              >
+                <img
+                  src="{{ '/assets/images/logo.svg' | relative_url }}"
+                  alt="Coding Confessions"
+                  width="200"
+              /></a>
             </div>
           </div>
         </div>
@@ -45,25 +70,25 @@ layout: default
             <div class="item widget-services">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <a href="{{ site.baseurl }}{% link confess.md %}">
+                  <a href="{% link _pages/confess.md %}">
                     <i class="icon icon-bubble"></i>
                     <h5>Submit a confession to us</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link confessions.md %}">
+                  <a href="{% link _pages/confessions.md %}">
                     <i class="icon icon-book-open"></i>
                     <h5>Read confessions from the community</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link events.md %}">
+                  <a href="{% link _pages/events.md %}">
                     <i class="icon icon-event"></i>
                     <h5>Run your own event</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link videos.md %}">
+                  <a href="{% link _pages/videos.md %}">
                     <i class="icon icon-social-youtube"></i>
                     <h5>Watch previous events</h5>
                   </a>
@@ -77,22 +102,34 @@ layout: default
   </div>
 </section>
 <!-- Confessions -->
-<section id="confessions" class="section-2 odd body-mode-dark showcase blog-grid masonry news">
+<section
+  id="confessions"
+  class="section-2 odd body-mode-dark showcase blog-grid masonry news"
+>
   <div class="row text-center intro">
     <div class="col-12">
       <h2>Recent Confessions</h2>
       <p class="text-max-800">Our most recent community confessions</p>
     </div>
   </div>
-  <div data-aos="zoom-in" data-aos-delay="800" data-aos-anchor="body" class="container">
+  <div
+    data-aos="zoom-in"
+    data-aos-delay="800"
+    data-aos-anchor="body"
+    class="container"
+  >
     <div class="row content blog-grid masonry">
       <main class="col-12 p-0">
         <div class="bricklayer items columns-3">
           {% for post in site.posts limit:6 %}
           <div class="card p-0 text-center item">
             <div class="image-over">
-              {% capture url %}/assets/images/confession-{{ post.uid }}.jpg{% endcapture %}
-              <img src="{{ url | relative_url }}" alt="{{ post.title | escape }}">
+              {% capture url %}/assets/images/confession-{{ post.uid }}.jpg{%
+              endcapture %}
+              <img
+                src="{{ url | relative_url }}"
+                alt="{{ post.title | escape }}"
+              />
             </div>
             <div class="card-caption col-12 p-0">
               <div class="card-body">
@@ -100,12 +137,19 @@ layout: default
                   <h4>{{ post.title }}</h4>
                 </a>
               </div>
-              <div class="card-footer d-lg-flex align-items-center justify-content-center">
-                <a href="{{ post.url | relative_url }}" class="d-lg-flex align-items-center"><i class="icon-user"></i>{{
-                  post.author }}</a>
-                <a href="{{ post.url | relative_url }}" class="d-lg-flex align-items-center"><i
-                    class="icon-clock"></i>{{ post.date | date: "%B
-                  %Y" }}</a>
+              <div
+                class="card-footer d-lg-flex align-items-center justify-content-center"
+              >
+                <a
+                  href="{{ post.url | relative_url }}"
+                  class="d-lg-flex align-items-center"
+                  ><i class="icon-user"></i>{{ post.author }}</a
+                >
+                <a
+                  href="{{ post.url | relative_url }}"
+                  class="d-lg-flex align-items-center"
+                  ><i class="icon-clock"></i>{{ post.date | date: "%B %Y" }}</a
+                >
               </div>
             </div>
           </div>
@@ -113,9 +157,13 @@ layout: default
         </div>
       </main>
     </div>
-    <a href="{% link confessions.md %}" data-aos="zoom-out-up" data-aos-delay="1200"
-      class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button aos-init aos-animate">READ
-      MORE CONFESSIONS</a>
+    <a
+      href="{% link _pages/confessions.md %}"
+      data-aos="zoom-out-up"
+      data-aos-delay="1200"
+      class="smooth-anchor ml-auto mr-auto mt-5 btn primary-button aos-init aos-animate"
+      >READ MORE CONFESSIONS</a
+    >
     <!-- Pagination
     <div class="row">
       <div class="col-12">

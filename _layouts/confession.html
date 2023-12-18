@@ -1,16 +1,27 @@
 ---
 layout: default
 ---
+
 <!-- Hero -->
 <section id="slider" class="hero p-0 odd featured">
   <div class="swiper-container no-slider slider-h-50">
     <div class="swiper-wrapper">
       <div class="swiper-slide slide-center">
-        <img src="{{ '/assets/images/bg-abstract.jpg' | relative_url }}" class="full-image" data-mask="60"
-          alt="background">
+        <img
+          src="{{ '/assets/images/bg-abstract.jpg' | relative_url }}"
+          class="full-image"
+          data-mask="60"
+          alt="background"
+        />
         <div class="slide-content row text-center">
           <div class="col-12 mx-auto inner">
-            <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Confession</h1>
+            <h1
+              data-aos="zoom-out-up"
+              data-aos-delay="400"
+              class="title effect-static-text"
+            >
+              Confession
+            </h1>
           </div>
         </div>
       </div>
@@ -38,40 +49,50 @@ layout: default
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                   <a href="{{ page.link }}" class="author">
-                    {% capture url %}/assets/images/profile-{{ page.uid }}.jpg{% endcapture %}
-                    <img src="{{ url | relative_url }}" alt="{{ page.author | escape }}">
+                    {% capture url %}/assets/images/profile-{{ page.uid }}.jpg{%
+                    endcapture %}
+                    <img
+                      src="{{ url | relative_url }}"
+                      alt="{{ page.author | escape }}"
+                    />
                     <h4 class="title">By {{ page.author }}</h4>
                   </a>
-                  {% if page.about %}<p class="biography">{{ page.about }}</p>{% endif %}
+                  {% if page.about %}
+                  <p class="biography">{{ page.about }}</p>
+                  {% endif %}
                 </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <span class="d-lg-flex align-items-center"><i class="icon-clock mr-2"></i>{{ page.date | date: "%B
-                    %Y" }}</span>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <span class="d-lg-flex align-items-center"
+                    ><i class="icon-clock mr-2"></i>{{ page.date | date: "%B %Y"
+                    }}</span
+                  >
                 </li>
               </ul>
             </div>
             <div class="item widget-services">
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  <a href="{{ site.baseurl }}{% link confess.md %}">
+                  <a href="{% link _pages/confess.md %}">
                     <i class="icon icon-bubble"></i>
                     <h5>Submit a confession to us</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link confessions.md %}">
+                  <a href="{% link _pages/confessions.md %}">
                     <i class="icon icon-book-open"></i>
                     <h5>Read confessions from the community</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link events.md %}">
+                  <a href="{% link _pages/events.md %}">
                     <i class="icon icon-event"></i>
                     <h5>Run your own event</h5>
                   </a>
                 </li>
                 <li class="list-group-item">
-                  <a href="{% link videos.md %}">
+                  <a href="{% link _pages/videos.md %}">
                     <i class="icon icon-social-youtube"></i>
                     <h5>Watch previous events</h5>
                   </a>

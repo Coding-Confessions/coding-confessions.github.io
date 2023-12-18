@@ -1,42 +1,46 @@
 <!-- Header -->
 <header id="header">
-    <!-- Navbar -->
-    <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-        <div class="container header">
-            <!-- Navbar Brand-->
-            <a class="navbar-brand" href="{% link index.md %}">
-                CodingConfessions
-            </a>
-            <!-- Nav Holder -->
-            <div class="ml-auto"></div>
-            <!-- Navbar Items -->
-            <ul class="navbar-nav items">
-                <li class="nav-item">
-                    <a href="{% link about.md %}" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{% link confessions.md %}" class="nav-link">Confessions</a>
-                </li>
-                <li class="nav-item">
-                    <a href="{% link events.md %}" class="nav-link">Events</a>
-                </li>
-            </ul>
-            <!-- Navbar Toggle -->
-            <ul class="navbar-nav toggle">
-                <li class="nav-item">
-                    <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
-                        <i class="icon-menu m-0"></i>
-                    </a>
-                </li>
-            </ul>
-            <!-- Navbar Action -->
-            <ul class="navbar-nav action">
-                <li class="nav-item ml-3">
-                    <a href="{{ site.baseurl }}{% link confess.md %}" class="btn ml-lg-auto primary-button"><i
-                            class="icon-bubble"></i>MAKE A
-                        CONFESSION</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <!-- Navbar -->
+  <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
+    <div class="container header">
+      <!-- Navbar Brand-->
+      <a class="navbar-brand" href="{% link index.md %}">
+        Coding Confessions
+      </a>
+      <!-- Nav Holder -->
+      <div class="ml-auto"></div>
+      <!-- Navbar Items -->
+      <ul class="navbar-nav items">
+        <li class="nav-item">
+          <a href="{% link _pages/about.md %}" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="{% link _pages/confessions.md %}" class="nav-link"
+            >Confessions</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="{% link _pages/events.md %}" class="nav-link">Events</a>
+        </li>
+      </ul>
+      <!-- Navbar Toggle -->
+      <ul class="navbar-nav toggle">
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+            <i class="icon-menu m-0"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- Navbar Action -->
+      <ul class="navbar-nav action">
+        <li class="nav-item ml-3">
+          <a
+            href="{% link _pages/confess.md %}"
+            class="btn ml-lg-auto primary-button"
+            ><i class="icon-bubble"></i>MAKE A CONFESSION</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
