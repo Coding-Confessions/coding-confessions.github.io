@@ -36,4 +36,12 @@ We want to:
     allowfullscreen></iframe>
 </div>
 
+### Coding Confessions at RSECon2023
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/-rTuHVKg3wk" title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+
 <a href="{% link _pages/videos.md %}" data-aos="zoom-out-up" data-aos-delay="1200" class="mt-5 btn primary-button aos-init aos-animate">MORE VIDEOS</a>
